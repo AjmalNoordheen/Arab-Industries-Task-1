@@ -3,13 +3,18 @@ body{
   padding: 0;
 }
 
+::-webkit-scrollbar{
+  width: 0;
+  height: 0;
+}
+
 .logo {
   height: 78px;
   background: white;
   position: relative;
 }
 .logo:before {
-   content:'';
+  content:'';
   position: absolute;
   bottom: 0;
   right: 0;
