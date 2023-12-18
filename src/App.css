@@ -4,19 +4,16 @@ body{
 }
 
 .logo {
-  height: 80px;
-  background: yellow;
+  height: 78px;
+  background: white;
   position: relative;
-  z-index:1;
-  
 }
 .logo:before {
    content:'';
   position: absolute;
   bottom: 0;
   right: 0;
-  border-bottom: 80px solid white;
-  border-left: 80px solid yellow;
+  border-bottom: 78px solid #e3f1fe;
+  border-left: 78px solid white;
   width: 0;
-  z-index:0;
 }
