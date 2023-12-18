@@ -1,0 +1,22 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  height: 80px;
+  background: yellow;
+  position: relative;
+  z-index:1;
+  
+}
+.logo:before {
+   content:'';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-bottom: 80px solid white;
+  border-left: 80px solid yellow;
+  width: 0;
+  z-index:0;
+}
