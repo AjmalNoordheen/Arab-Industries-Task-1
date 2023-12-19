@@ -34,7 +34,7 @@ function App() {
             </IconButton>
             </div>
             <img
-              src="/src/assets/imgLogo.png"
+              src="/imgLogo.png"
               className="w-14 h-14 sm:w-fit sm:h-full sm:mx-[16%]"
               alt=""
             />
@@ -67,7 +67,7 @@ function App() {
               </div>
             <div className="h-[26%] border border-slate-100 w-[99%] flex flex-col justify-center items-center bg-white shadow-md">
               <img
-                src="\src\assets\profile.jpeg"
+                src="/profile.jpeg"
                 className="rounded-full w-16 h-16"
                 alt=""
               />
