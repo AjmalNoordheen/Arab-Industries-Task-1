@@ -270,8 +270,9 @@ function App() {
                     </div>
                     <div className="flex gap-x-1">
                       <DoneAllOutlinedIcon fontSize="inherit" />
-                      <p className="text-xs">
-                        Voting,Accounting,Banking,Notes, Investore,Director and
+                      <p className="text-xs overflow-scroll">
+                        Voting,Accounting,Banking,Notes,
+                        Investore,Director and
                         Team,Management Included
                       </p>
                     </div>
